@@ -1,0 +1,9 @@
+Jenkins Console Line Number plugin
+
+A Jenkins build wrapper plugin that, when activated for your project, will add html linkable line
+numbers to the job console output.
+
+Each line is linkable via the an "#nnn" suffix on the "consoleFull" link for any
+job.   For example, to send someone a link to the 150th line of your "MyBuild" run number 10, you can send them the URL:
+http://myjenkins.server.com/job/MyBuild/10/consoleFull#150
+

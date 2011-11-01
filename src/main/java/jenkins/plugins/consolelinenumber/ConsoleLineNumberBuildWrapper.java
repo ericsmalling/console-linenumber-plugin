@@ -2,7 +2,8 @@
  * The MIT License
  * 
  * Copyright (c) 2011 Eric A. Smalling
- * 
+ * Based on http://wiki.jenkins-ci.org/display/JENKINS/Timestamper by Steven G. Brown
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
@@ -31,11 +32,10 @@ import hudson.model.AbstractProject;
 import hudson.model.BuildListener;
 import hudson.tasks.BuildWrapper;
 import hudson.tasks.BuildWrapperDescriptor;
+import org.kohsuke.stapler.DataBoundConstructor;
 
 import java.io.IOException;
 import java.io.OutputStream;
-
-import org.kohsuke.stapler.DataBoundConstructor;
 
 /**
  * Build wrapper that decorates the build's logger to insert a

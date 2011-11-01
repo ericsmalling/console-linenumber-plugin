@@ -4,7 +4,6 @@
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>1.374</version>
-    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <!-- Note: Avoid parent versions 1.393 through 1.398.
@@ -76,7 +75,7 @@
     <developer>
       <id>ericNdfw</id>
       <name>Eric Smalling</name>
-      <email>eric@viarun.com</email>
+      <email>github@ericsmalling.com</email>
     </developer>
   </developers>
 </project>

@@ -2,6 +2,7 @@
  * The MIT License
  * 
  * Copyright (c) 2011 Eric A. Smalling
+ * Based on http://wiki.jenkins-ci.org/display/JENKINS/Timestamper by Steven G. Brown
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -23,26 +24,19 @@
  */
 package jenkins.plugins.consolelinenumber;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
 import hudson.MarkupText;
 import hudson.console.ConsoleNote;
 import hudson.tasks._ant.AntTargetNote;
-
-import java.util.TimeZone;
-
 import org.apache.commons.lang.SerializationUtils;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Ignore;
 import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 /**
  * Unit test for the {@link ConsoleLineNumberNote} class.
  */
 public class ConsoleLineNumberNoteTest {
-
-  private static TimeZone systemDefaultTimeZone;
 
   /**
    */

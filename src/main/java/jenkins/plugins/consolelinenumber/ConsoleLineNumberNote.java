@@ -1,7 +1,8 @@
 /*
  * The MIT License
  * 
- * Copyright (c) 2011 Eric A. SMalling
+ * Copyright (c) 2011 Eric A. Smalling
+ * Based on http://wiki.jenkins-ci.org/display/JENKINS/Timestamper by Steven G. Brown
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
